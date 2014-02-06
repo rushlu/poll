@@ -11,6 +11,12 @@ var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
 var add = require('./routes/add');
+
+var create_poll=require('./routes/create_poll');
+var polls=require('./routes/polls');
+var events=require('./routes/events');
+var profile=require('./routes/profile');
+
 // Example route
 // var user = require('./routes/user');
 
@@ -39,6 +45,12 @@ if ('development' == app.get('env')) {
 // Add routes here
 app.get('/', index.view);
 app.get('/add', add.addFriend);
+
+app.get('/create_poll',create_poll.view);
+app.get('/polls',polls.view);
+app.get('/events',events.view);
+app.get('/profile',profile.view);
+
 // Example route
 // app.get('/users', user.list);
 
