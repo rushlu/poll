@@ -1,13 +1,11 @@
 /* applies to anything of class "example-class-selector" */
 body {
-    background-color: #404040;
+    background-color: #000033;
 }
 
 .main {
-    background-color: #003366;
-    width: 95%;
-    margin: 0 auto;
-
+    background-color: #404040;
+    width: 100%;
 }
 
 
@@ -30,13 +28,23 @@ h1, h2, h3, h4, h5 {
 }
 
 .bar {
+background-color: #000033;
 position: fixed;
 bottom: 25px;
 width: 100%;
 height:25px;
 }
 
-table {
+.bar table {
+    background-color: #000033;
   border-collapse: collapse;
   border-spacing: 10px;
+  position: relative;
+  width: 100%;
+
 }
+
+.bar tr {
+    background-color: #000033;
+}
+
