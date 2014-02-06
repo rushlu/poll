@@ -23,9 +23,9 @@
         <h1>My HCI Friends</h1>
 
         {{#each friends}}
-        <div>
-            <img src="{{imageURL}}">
-            <h3>{{name}}</h3>
+        <div class="friend">
+            <img class="img-responsive img-rounded" src="{{imageURL}}">
+            <h3><a href="#" class="nameLink">{{name}}</a></h3>
             <p>{{description}}</p>
             <hr>
         </div>
