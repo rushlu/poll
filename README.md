@@ -1,4 +1,4 @@
-Lab 5
+poll
 ====
 
-Lab 5: Putting it together
+Poll App for CS 147
