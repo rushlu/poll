@@ -1,4 +1,16 @@
 /* applies to anything of class "example-class-selector" */
+body {
+    background-color: #404040;
+}
+
+.main {
+    background-color: #003366;
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+
 .example-class-selector {
 	margin-top: 2em;
 }
